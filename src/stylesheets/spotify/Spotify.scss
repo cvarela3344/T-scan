@@ -1,7 +1,7 @@
 .ScrollContainer {
     margin: 20px;
     width: calc(100% - 40px); /* Ajustar ancho considerando los márgenes */
-    height: calc(100vh - 60px); /* Ajusta la altura total menos el espacio que ocupa la barra de navegación */
+    height: calc(90vh - 60px); /* Ajusta la altura total menos el espacio que ocupa la barra de navegación */
     overflow-y: auto; 
     padding: 10px;
     box-sizing: border-box; /* Asegura que el padding no afecte el tamaño total */
