@@ -1,0 +1,16 @@
+/* Contenedor para centrar la imagen */
+.center-image-container {
+    display: flex;
+    justify-content: center; /* Centra la imagen horizontalmente */
+    align-items: center;     /* Centra la imagen verticalmente */
+    height: 100vh;           /* Ocupa toda la altura de la pantalla */
+  }
+  
+  /* Estilos para la imagen */
+  .center-image-container img {
+    margin: 20px;            /* Margen alrededor de la imagen */
+    max-width: 100%;         /* Escala la imagen para que no se salga del contenedor */
+    max-height: 100%;        /* Escala la imagen para que se ajuste a la pantalla */
+    box-sizing: border-box;  /* Asegura que el margen no afecte el tamaño total */
+  }
+  

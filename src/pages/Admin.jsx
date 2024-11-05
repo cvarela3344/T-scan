@@ -1,7 +1,9 @@
 // src/pages/home_page.jsx
 import React, { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
+import resultado from "../assets/resultados_test.png";
 import '../stylesheets/home_page/home_page.scss';
+import '../stylesheets/admin/foto.scss';
 
 export const HomePage = () => {
   const [showParagraph, setShowParagraph] = useState(false); // Estado para controlar la visibilidad del párrafo
@@ -29,7 +31,7 @@ export const HomePage = () => {
         animate="visible"
         onAnimationComplete={handleAnimationComplete} // Maneja el evento de finalización de la animación
       >
-        Mide la salud de tu equipo agil
+        Resultados
       </motion.h1>
       {showParagraph && ( // Renderiza el párrafo solo si showParagraph es verdadero
         <motion.p
@@ -37,7 +39,19 @@ export const HomePage = () => {
           initial="hidden"
           animate="visible"
         >
-          Adminnnnnnnnnnnnnnnnnnnnnn Te presentamos distintas pruebas para que puedas medir la salud de tu equipo ágil.
+          Te presentamos los resultados del equipo en el test de Spotify Squad Health Check.
+          <div className='center_image_container'><img src={resultado}/></div>
+          
+        </motion.p>
+      )}
+
+        {showParagraph && ( // Renderiza el párrafo solo si showParagraph es verdadero
+        <motion.p
+          variants={textVariants}
+          initial="hidden"
+          animate="visible"
+        >
+          Analisis de tendencias.
         </motion.p>
       )}
     </div>
