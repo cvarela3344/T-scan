@@ -35,7 +35,7 @@ export const NavBar = () => {
       {isAuthenticated ? (
         <>
           <span className='nav-bar__username'>Bienvenido, {username}</span>
-          <button className='nav-bar__buttonclose' onClick={logout}>Cerrar sesión</button>
+          <button className='nav-bar__button' onClick={logout}>Cerrar sesión</button>
         </>
       ) : (
         <div className="nav-bar__left-container">

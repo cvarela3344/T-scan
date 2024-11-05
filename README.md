@@ -4,9 +4,9 @@
 
 - Vicente Klapp
 
-- Claudio Varela
+- Claudio Varela 202141087-2
 
-- Felipe
+- Felipe Contreras
 
 ### Requirements
 
