@@ -1,13 +1,13 @@
 .nav-bar {
   display: flex;
   align-items: center;
-  background-color: #00887a;
+  background-color: #2A3E5D;
 }
 
 .nav-bar__left-container {
   display: flex;
   align-items: center;
-  justify-content: flex-start; /* Alinea los elementos al lado izquierdo */
-  gap: 15px; /* Espacio entre los elementos del lado izquierdo */
+  justify-content: flex-start;
+  gap: 15px; 
   margin-left: auto;
 }

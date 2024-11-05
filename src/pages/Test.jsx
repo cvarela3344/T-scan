@@ -1,6 +1,5 @@
 import React from 'react';
 import Card from '../components/card';
-//import '../stylesheets/Test/cards.scss';
 
 export const Tests = () => {
   const cardsData = [

@@ -1,5 +1,5 @@
 html, body {
-  background-color: #3ec0af;
+  background-color: #FAF0E6;
   margin: 0;
   padding: 0;
 }
@@ -17,19 +17,19 @@ html, body {
   margin-top: 50px;
   width: 270px;
   height: 300px;
-  background: #9b1565;
+  background: #F4B942;
   transition: all 0.7s;
   border-radius: 10px;
   box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.705);
   font-size: 30px;
   font-weight: 900;
-  position: relative; /* Agregado para contener el botón "Ver más" */
+  position: relative;
 }
 
 .card:hover {
   cursor: pointer;
-  transform: scale(1.1); /* Ajusta el scale para que no se desborde tanto */
-  background: #3ec0af;
+  transform: scale(1.1); 
+  background: #b37d13;
 }
 
 .first-content {
@@ -76,8 +76,8 @@ html, body {
   color: #ffffff;
   text-decoration: none;
   transition: color 0.3s;
-  z-index: 2; /* Asegura que el botón se muestre encima del contenido */
-  background: rgba(0, 0, 0, 0.5); /* Fondo para mejorar visibilidad */
+  z-index: 2;
+  background: rgba(0, 0, 0, 0.5); 
   padding: 5px 10px;
   border-radius: 5px;
 }

@@ -1,16 +1,16 @@
-// Estilos generales para el contenedor principal de la página
+
 .container {
   padding: 20px;
   text-align: center;
 }
-// Contenedor para centrar solo la imagen
+
 .center_image_container {
   display: flex;
-  justify-content: center; // Centra la imagen horizontalmente
+  justify-content: center; 
   margin-top: 1rem;
 
   img {
-    max-width: 100%; // Asegura que la imagen no se desborde
-    height: auto; // Mantiene la proporción de la imagen
+    max-width: 100%; 
+    height: auto; 
   }
 }

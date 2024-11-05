@@ -28,7 +28,7 @@ export const NavBar = () => {
       
       {isAuthenticated && username === "Admin" && (
         <NavLink className='nav-bar__button' to='/Revisar'>
-          Revisar
+          Resultados
         </NavLink>
       )}
 
