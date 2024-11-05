@@ -21,6 +21,7 @@
     "react-dom": "^18.3.1",
     "react-redux": "^7.2.5",
     "react-router-dom": "^6.4.0",
+    "survey-core": "^1.12.8",
     "survey-react-ui": "^1.12.8"
   },
   "devDependencies": {

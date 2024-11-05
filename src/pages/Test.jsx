@@ -6,7 +6,7 @@ export const Tests = () => {
   const cardsData = [
     { text1: 'Spotify Squad Health Check', text2: 'Introducida por Henrik Kniberg, es una herramienta '+ 
       'diseñada para medir la salud de un equipo o "squad". '+
-      'Utiliza sistemas de colores para medir las respuestas.', text3: 'Comenzar', link: '../Spotify' },
+      'Utiliza sistemas de colores para medir las respuestas.', text3: 'Comenzar', link: '/Spotify' },
     { text1: 'Crisp Happiness Index', text2: 'Principal métrica utilizada por Crisp '+
       'para medir de manera sistemática a los equipos. Escala de 1 a 5', text3: 'Ver más', link: '/detalles/2' },
     { text1: 'Scrum Team Survey', text2: 'Creado como apoyo para equipos Scrum en la mejora continua. '+

@@ -24,6 +24,7 @@ const App = () => {
       {!hideNavBar && <NavBar />}
       <div className='layout__page'>
         <Routes>
+          <Route path="/spotify" element={<SurveyComponent />} />
           <Route path='/' element={<HomePage />} />
           <Route path='/Diagnostico' element={<ProtectedRoute element={<Diagnostico />} />} />
           <Route path='/Test' element={<ProtectedRoute element={<Test />} />} />

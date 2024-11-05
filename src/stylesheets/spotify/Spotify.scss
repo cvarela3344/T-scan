@@ -1,0 +1,14 @@
+.SurveyComponent {
+    margin: 20px;
+    width: 80%;
+    max-height: 400px;  
+    overflow-y: auto;   
+}
+.ScrollContainer {
+    margin: 20px;
+    width: 80%;
+    max-height: 400px; 
+    overflow-y: auto;  
+    border: 1px solid #ccc;
+    padding: 10px;
+}

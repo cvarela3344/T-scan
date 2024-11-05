@@ -19,6 +19,8 @@ Install dependences
 
 ```
 npm install
+npm install survey-core survey-react-ui
+
 ```
 
 Launch environment
