@@ -1,10 +1,12 @@
 # T-Scan
 
-# AUTORES : - Vicente Klapp
+### AUTORES :
 
-# - Claudio Varela
+- Vicente Klapp
 
-# - Felipe
+- Claudio Varela
+
+- Felipe
 
 ### Requirements
 
