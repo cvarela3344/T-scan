@@ -10,6 +10,7 @@ import Login from '../pages/Login';
 import Sign_Up from '../pages/Sign_Up';
 import Revision from '../pages/Admin';
 import SurveyComponent from './SurveyComponent';
+import SurveyHappiness from './SurveyHappiness';
 
 import NavBar from '../components/nav_bar';
 import ProtectedRoute from '../components/ProtectedRoute';
@@ -24,6 +25,7 @@ const App = () => {
       {!hideNavBar && <NavBar />}
       <div className='layout__page'>
         <Routes>
+          <Route path="/Happiness" element={<SurveyHappiness />} /> 
           <Route path="/spotify" element={<SurveyComponent />} />
           <Route path='/' element={<HomePage />} />
           <Route path='/Diagnostico' element={<ProtectedRoute element={<Diagnostico />} />} />
