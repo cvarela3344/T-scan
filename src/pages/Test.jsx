@@ -4,13 +4,15 @@ import '../stylesheets/Test/cards.scss';
 
 export const Tests = () => {
   const cardsData = [
-    { text1: 'Test1', text2: 'Este test sirve para bla bla bla papapapa', text3: 'Ver más', link: '/detalles/1' },
-    { text1: 'Test2', text2: 'Texto 2 - Card 2', text3: 'Ver más', link: '/detalles/2' },
-    { text1: 'Texto 1 - Card 3', text2: 'Texto 2 - Card 3', text3: 'Ver más', link: '/detalles/3' },
-    { text1: 'Texto 1 - Card 4', text2: 'Texto 2 - Card 4', text3: 'Ver más', link: '/detalles/4' },
-    { text1: 'Texto 1 - Card 5', text2: 'Texto 2 - Card 5', text3: 'Ver más', link: '/detalles/5' },
-    { text1: 'Texto 1 - Card 6', text2: 'Texto 2 - Card 6', text3: 'Ver más', link: '/detalles/6' },
-  ];
+    { text1: 'Spotify Squad Health Check', text2: 'Introducida por Henrik Kniberg, es una herramienta '+ 
+      'diseñada para medir la salud de un equipo o "squad". '+
+      'Utiliza sistemas de colores para medir las respuestas.', text3: 'Ver más', link: '/detalles/1' },
+    { text1: 'Crisp Happiness Index', text2: 'Principal métrica utilizada por Crisp '+
+      'para medir de manera sistemática a los equipos. Escala de 1 a 5', text3: 'Ver más', link: '/detalles/2' },
+    { text1: 'Scrum Team Survey', text2: 'Creado como apoyo para equipos Scrum en la mejora continua. '+
+      'Ayuda en la creación de workshops para medir la salud del equipo.', text3: 'Ver más', link: '/detalles/3' },
+    { text1: 'Team Barometer', text2: 'Parte de un workshop. Se utilizan colores verde, rojo y amarillo. Se sugiere previo a la reunión.', text3: 'Ver más', link: '/detalles/4' },
+    ];
 
   return (
     <div className="cards-container">
