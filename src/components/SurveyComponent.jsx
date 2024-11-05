@@ -14,9 +14,8 @@ function SurveyComponent() {
     });
 
     return (
-        <div className="ScrollContainer">
             <Survey model={survey} />
-        </div>
+
     );
 }
 
