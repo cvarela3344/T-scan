@@ -20,7 +20,7 @@ export const NavBar = () => {
       </NavLink>
 
       <NavLink className='nav-bar__button' to='/Diagnostico'>
-        ¿Que test deberia realizar?
+        ¿No sabes que test realizar?
       </NavLink> 
       <NavLink className='nav-bar__button' to='/Test'>
         Tests

@@ -4,7 +4,7 @@ import { Survey } from "survey-react-ui";
 import "survey-core/defaultV2.min.css";
 import * as SurveyTheme from "survey-core/themes";
 import { json } from "../stylesheets/spotify/json";
-import "../stylesheets/spotify/spotify.scss"; 
+
 
 function SurveyComponent() {
     const survey = new Model(json);

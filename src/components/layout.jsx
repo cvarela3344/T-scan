@@ -13,7 +13,7 @@ import SurveyComponent from './SurveyComponent';
 
 import NavBar from '../components/nav_bar';
 import ProtectedRoute from '../components/ProtectedRoute';
-import '../stylesheets/layout/background.scss'; 
+//import '../stylesheets/layout/background.scss'; 
 
 const App = () => {
   const location = useLocation();
