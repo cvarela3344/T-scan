@@ -1,5 +1,11 @@
 # T-Scan
 
+# AUTORES : - Vicente Klapp
+
+# - Claudio Varela
+
+# - Felipe
+
 ### Requirements
 
 - Node >= 16.13.1
