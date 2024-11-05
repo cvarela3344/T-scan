@@ -25,6 +25,12 @@ export const NavBar = () => {
       <NavLink className='nav-bar__button' to='/Test'>
         Tests
       </NavLink>
+      
+      {isAuthenticated && username === "Admin" && (
+        <NavLink className='nav-bar__button' to='/Revisar'>
+          Revisar
+        </NavLink>
+      )}
 
       {isAuthenticated ? (
         <>
@@ -32,12 +38,10 @@ export const NavBar = () => {
           <button className='nav-bar__buttonclose' onClick={logout}>Cerrar sesión</button>
         </>
       ) : (
-        <>
-          <div className="nav-bar__left-container">
+        <div className="nav-bar__left-container">
           <NavLink className='nav-bar__button' to="/Sign_Up">Registrarse</NavLink>
           <NavLink className='nav-bar__button' to="/Login">Login</NavLink>
-          </div>
-        </>
+        </div>
       )}
     </nav>
   );

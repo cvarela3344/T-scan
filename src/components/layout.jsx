@@ -1,4 +1,4 @@
-// src/layout/Layout.jsx
+
 import React from 'react';
 import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
 import { AuthProvider } from '../context/AuthContext';
@@ -8,10 +8,11 @@ import Test from '../pages/Test';
 import Diagnostico from '../pages/Diagnostico';
 import Login from '../pages/Login';
 import Sign_Up from '../pages/Sign_Up';
+import Revision from '../pages/Admin';
 
 import NavBar from '../components/nav_bar';
 import ProtectedRoute from '../components/ProtectedRoute';
-import '../stylesheets/layout/background.scss'; // Asegúrate de tener el archivo SCSS aquí
+import '../stylesheets/layout/background.scss'; 
 
 const App = () => {
   const location = useLocation();
@@ -27,6 +28,7 @@ const App = () => {
           <Route path='/Test' element={<ProtectedRoute element={<Test />} />} />
           <Route path='/Login' element={<Login />} />
           <Route path='/Sign_Up' element={<Sign_Up />} />
+          <Route path='/Revisar' element={<Revision />} />
         </Routes>
       </div>
     </div>
@@ -36,7 +38,7 @@ const App = () => {
 const Layout = () => (
   <AuthProvider>
     <BrowserRouter>
-      <div className="background"> {/* Asegúrate de que este div cubra toda la página */}
+      <div className="background"> 
         <App />
       </div>
     </BrowserRouter>
