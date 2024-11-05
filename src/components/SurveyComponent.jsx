@@ -3,8 +3,8 @@ import { Model } from "survey-core";
 import { Survey } from "survey-react-ui";
 import "survey-core/defaultV2.min.css";
 import * as SurveyTheme from "survey-core/themes";
-import "../stylesheets/index.scss";
-import { json } from "../stylesheets/spotify/json";
+import "./index.css";
+import { json } from "./stylesheets/spotify/json";
 
 function SurveyComponent() {
     const survey = new Model(json);
@@ -16,4 +16,3 @@ function SurveyComponent() {
 }
 
 export default SurveyComponent;
-

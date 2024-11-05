@@ -9,6 +9,7 @@ import Diagnostico from '../pages/Diagnostico';
 import Login from '../pages/Login';
 import Sign_Up from '../pages/Sign_Up';
 import Revision from '../pages/Admin';
+import SurveyComponent from './SurveyComponent';
 
 import NavBar from '../components/nav_bar';
 import ProtectedRoute from '../components/ProtectedRoute';
