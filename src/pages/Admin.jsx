@@ -63,6 +63,22 @@ export const HomePage = () => {
           <div className="center_image_container">
             <img src={analisis} alt="Análisis de tendencias" />
           </div>
+          
+          <center>
+          <p
+            style={{
+              textAlign:"center"
+            }}
+            
+          >
+            Realizar el Spotify Squad Health Check periódicamente es crucial para obtener una muestra amplia y representativa 
+            que permita analizar las tendencias del equipo en áreas clave como la moral y eficiencia. Este seguimiento constante facilita identificar patrones, mejoras o problemas recurrentes, ayudando a 
+            tomar decisiones informadas para fortalecer la moral y eficiencia del equipo. Además, al comparar los resultados a lo 
+            largo del tiempo, es posible implementar ajustes estratégicos que optimicen el desempeño y bienestar del equipo de 
+            manera sostenible.
+          </p>
+          </center>
+
 
           <button
             onClick={handleNavigateHome}
